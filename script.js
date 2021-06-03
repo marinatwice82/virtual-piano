@@ -16,8 +16,8 @@ piano.addEventListener('click', (event) => {
         playAudio(src);
     }   
 });
-/*func playAudio*/  
-
+ 
+/*func highlight the active key*/
 piano.addEventListener('click', (event) => {
     if(event.target.classList.contains('piano-key')) {
         pianoКeys.forEach((el) => {
@@ -27,6 +27,21 @@ piano.addEventListener('click', (event) => {
     });
         event.target.classList.add('active');
     }
-  });
+});
+
+const btnContainer = document.querySelector('.btn-container');
+const btn = document.querySelectorAll('.btn');
+
+btnContainer.addEventListener('click', (event) => {
+    if(event.target.classList.contains('btn')) {
+        btn.forEach((el) => {
+            if(el.classList.contains('btn-active')) {
+                el.classList.remove('btn-active');
+            }
+        });
+        event.target.classList.add('btn-active');
+    }
+
+});
 
 
