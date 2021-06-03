@@ -32,10 +32,6 @@ piano.addEventListener('click', (event) => {
 const btnContainer = document.querySelector('.btn-container');
 const btn = document.querySelectorAll('.btn');
 
-//const dataLetter = pianoКeys[0].getAttribute('data-letter');
-//console.log(dataLetter);
-//const dataNote = pianoКeys[0].getAttribute('data-note');
-//console.log(dataNote);
 const btnLetters = document.querySelector('.btn-letters');
 const btnNotes = document.querySelector('.btn-notes');
 
