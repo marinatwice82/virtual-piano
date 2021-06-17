@@ -1,4 +1,4 @@
-## Task . Virtual-piano от [RSS School](https://rs.school/)
+## Task 2. Virtual-piano от [RSS School](https://rs.school/)
 
 <img src="./img/virtual-piano.jpg">
 
